@@ -2,8 +2,8 @@
 
 This code implements the Naive Bayes Classifier which is a simple technique for constructing classifiers: models that assign class labels to problem instances, represented as vectors of feature values, where the class labels are drawn from some finite set.
 
-## AIM 
-Given 1000 training documents from each group. Learn to classify new documents according to which newsgroup it came from and then evaluate the performance of the classifier.
+## Aim
+Given 1000 training documents from each group. Learn to classify new documents according to which newsgroup it came from and then evaluate the performance of the classifier. Use both Maximum Likelihood Estimator and Bayesian Estimator and indicate which performed better.
 
 ## Experimental Results
 

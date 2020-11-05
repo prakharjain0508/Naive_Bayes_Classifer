@@ -7,7 +7,6 @@ Given 1000 training documents from each group. Learn to classify new documents a
 
 ## Experimental Results
 
-* Run time of the program was 1 minute 17 seconds
 * Probability that a word wk is found in a given class j using MLE, PMLE(wk/ωj) = nk/n. Thus, if the value of nk which is the number of times work wk occurs in all documents in class ωj is 0, the probability also becomes zero.
 * On the other hand, probability that a word w is found in a given class j using BE, PBE(wk/ωj) = (nk + 1)/(n + |vocabulary|). Here, even if the value of nk is 0, the probability is not zero due the presence of 1 in the numerator.
 * From the experimental results, we observe that the results or the predictions for the training data set were better than the test data set. This is expected as the model or the classifier is itself built by the training data set and hence, it will have the highest performance on it.
